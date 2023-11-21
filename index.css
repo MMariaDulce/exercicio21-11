@@ -1,0 +1,30 @@
+section {
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+    color: white;
+    background-color: aqua;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+body {
+    transition: background-color 1s, color 1s;
+}
+
+.modoNoturno {
+    background-color: #000;
+    color: #fff;
+}
